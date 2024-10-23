@@ -179,18 +179,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // footer validation start
-const fom = document.getElementById('footer-form');
-const footerMessage = document.getElementById('footer-message');
+// Function to send email using EmailJS
+function sendEmail(form, button, messageContainer) {
+    button.textContent = "Sending...";
 
-fom.addEventListener('submit', (event) => {
+    const serviceID = "default_service";
+    const templateID = "template_gpmxphd"; // Change this to your template ID
+
+    // Get the email from the form
+    const userEmail = form.querySelector('input[name="email"]').value;
+
+    // Prepare the form data to send to EmailJS
+    const data = {
+        to_email: userEmail, // Change 'to_email' to the name you used in your EmailJS template
+        // You can add more fields if needed
+    };
+
+    // Send the form data along with userEmail
+    emailjs.send(serviceID, templateID, data).then(
+        () => {
+            button.textContent = "Get Started";
+            messageContainer.innerHTML = '<p>Subscription successful!</p>';
+        },
+        (err) => {
+            button.textContent = "Get Started";
+            messageContainer.innerHTML = `<p>Error: ${JSON.stringify(err)}</p>`;
+        }
+    );
+}
+
+// Handle footer form submission
+const footerForm = document.getElementById("footer-form");
+const footerMessage = document.getElementById("footer-message");
+const footerButton = footerForm.querySelector('button');
+
+footerForm.addEventListener("submit", function (event) {
     event.preventDefault();
-    footerMessage.innerHTML = '~ Form submitted success fully!';
-    footerMessage.style.display = 'flex';
-    fom.reset();
-    setTimeout(() => {
-        footerMessage.style.display = 'none';
-    }, 3000);
+    sendEmail(footerForm, footerButton, footerMessage);
 });
+
 // footer validation end
 
 
