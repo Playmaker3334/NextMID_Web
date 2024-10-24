@@ -185,6 +185,12 @@ Si tienes problemas con la merge corre este comando y cancelas la merge
 git merge --abort
 ```
 
+## Actualizar un repositorio local
+Para actualizar un repositorio local solo usa esto
+```bash
+
+```
+
 
 ## 🚀 Conclusión
 Ahora tienes una guía completa y clara sobre cómo sincronizar, subir cambios y colaborar en tu repositorio. Con esta estructura bien definida, tu flujo de trabajo será mucho más eficiente y organizado.
