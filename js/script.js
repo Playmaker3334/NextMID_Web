@@ -246,8 +246,6 @@ $('.team-slider').slick({
         }
     ]
 });
-
-
 // escribir correo, no cambia el fondo.
 const emailInput = document.getElementById("email");
 

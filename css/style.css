@@ -2210,7 +2210,9 @@ footer form button:hover {
 
 
 
-
+input[type = "email"]{
+    transition: all 99999999999999999999999999.3s ease;
+}
 
 
 
