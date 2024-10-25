@@ -166,6 +166,32 @@ git push origin feature-agregar-footer
 
 ---
 
+## Como descargar archivos de github a mi repositorio local
+
+Primero de todo, analizar el estatus del repositorio
+```bash
+git status
+```
+Segundo, anades el archivo que quieras o los archivos que quieras 
+```bash
+git add app/models/rol_play_sim_extractor.py
+```
+Tercero, envia el commit 
+```bash
+git commit -m "Añadir columnas ID_Sim, Puntos_Totales, Calificacion y Caso_de_Uso_Nombre en RolPlaySimExtractor"
+```
+Si tienes problemas con la merge corre este comando y cancelas la merge
+```bash
+git merge --abort
+```
+
+## Actualizar un repositorio local
+Para actualizar un repositorio local solo usa esto
+```bash
+
+```
+
+
 ## 🚀 Conclusión
 Ahora tienes una guía completa y clara sobre cómo sincronizar, subir cambios y colaborar en tu repositorio. Con esta estructura bien definida, tu flujo de trabajo será mucho más eficiente y organizado.
 
