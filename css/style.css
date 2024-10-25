@@ -246,7 +246,7 @@ a {
 /* <!-- ====== 1.1. Header section ====== --> */
 
 .header-index {
-    background-image: url("../Images/bg/hero_bg.png");
+    background-image: url("../Images/bg/Portada_Facebook.jpeg");
     background-position: center center;
     background-size: cover;
 }
@@ -278,12 +278,12 @@ header {
 
 .nav-link {
     font-weight: 400;
-    color: #d3c9c1;
+    color: #000000;
 }
 
 nav li a.active,
 .nav-link:is(:hover, :focus-visible) {
-    color: #f57c48;
+    color: #ff4d00;
 }
 
 .dropdown {
@@ -361,11 +361,11 @@ nav li a.active,
 }
 
 .nav-right p:first-child {
-    color: #d3c9c1;
+    color: #000000;
 }
 
 .nav-right span {
-    color: #f57c48;
+    color: #ff4d00;
 }
 
 .nav-right .fa-magnifying-glass {
@@ -531,11 +531,11 @@ aside li a {
 }
 
 aside ul li a.active {
-    color: #f57c48;
+    color: #ff4d00;
 }
 
 aside li a:hover {
-    color: #f57c48;
+    color: #ff4d00;
     transition: 500ms;
 }
 
@@ -558,7 +558,7 @@ aside .pages {
 }
 
 .collapse_btn i:hover {
-    border: 1px solid #f57c48;
+    border: 1px solid #ff4d00;
 }
 
 .plus_collapse {
@@ -734,7 +734,7 @@ aside .pages {
 /* ====== 1.2. hero section ====== */
 
 .hero {
-    background-image: url("../Images/bg/hero.png");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -870,7 +870,7 @@ aside .pages {
 
 .header-card div {
     border-radius: 20px;
-    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    background: linear-gradient(0deg, #ed58a2 0%, #461f72 100%);
     color: #ffffff;
     padding: 40px 30px;
     transition: all 0.4s ease;
@@ -944,7 +944,7 @@ aside .pages {
 /* ====== 1.5. About us section ====== */
 
 .about {
-    background: #3d0f41;
+    background: #890c9b;
     padding: 100px 0;
 }
 
@@ -1256,7 +1256,7 @@ aside .pages {
 /* ====== 1.7. Services section ====== */
 
 .service-1 {
-    background: #3d0f41;
+    background: #33003b;
     padding: 120px 0;
 }
 
@@ -1281,7 +1281,7 @@ aside .pages {
 }
 
 .service-1 p {
-    color: #d3c9c1;
+    color: #ffffff;
     position: relative;
     margin-bottom: 15px;
 }
@@ -1309,7 +1309,7 @@ aside .pages {
 
 .service-card {
     border: 1px solid #b520a3;
-    background: linear-gradient(11deg, #7436bb 0.01%, #b520a3 100%);
+    background: linear-gradient(11deg, #ed58a2 0.01%, #461f72 100%);
     box-shadow: 8px 18px 30px 0px rgba(0, 0, 0, 0.2);
     padding: 40px 40px 30px 40px;
     width: 100%;
@@ -1818,7 +1818,7 @@ aside .pages {
 }
 
 .pricing-card div {
-    background: #3d0f41;
+    background: #890c9b;
     color: #ffffff;
     padding: 70px;
     transition: all 0.4s ease;
@@ -1870,7 +1870,7 @@ aside .pages {
 /* ====== 1.12. FAQ section ====== */
 
 .faq {
-    background-image: url("../Images/bg/faq-bg.png");
+    background-image: url("../Images/bg/peoplenextmid_background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
