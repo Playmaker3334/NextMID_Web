@@ -246,3 +246,36 @@ $('.team-slider').slick({
         }
     ]
 });
+
+
+// escribir correo, no cambia el fondo.
+const emailInput = document.getElementById("email");
+
+emailInput.addEventListener("input", function() {
+    if (emailInput.value.length > 0) {
+        emailInput.style.backgroundColor = "#381a46";  // Color al escribir
+        emailInput.style.borderColor = "#381a46";
+    } else {
+        emailInput.style.backgroundColor = "#381a46";  // Color al estar vacío
+        emailInput.style.borderColor = "#381a46";
+    }
+});
+
+// Escuchar el evento input (cuando el contenido del campo cambia)
+emailInput.addEventListener("input", function() {
+    if (isTyping && emailInput.value.length > 0) {
+        emailInput.style.backgroundColor = "#381a46";  // Cambia el color al escribir
+        emailInput.style.borderColor = "#381a46";
+    } else {
+        emailInput.style.backgroundColor = "#381a46";  // Mantener el color por defecto
+        emailInput.style.borderColor = "#381a46";
+    }
+    isTyping = false; // Resetear la bandera
+});
+
+// Escuchar el evento change (cuando se selecciona un correo de autocompletado)
+emailInput.addEventListener("change", function() {
+    // No cambiar el color si el valor fue cambiado por autocompletado
+    emailInput.style.backgroundColor = "#381a46";  // Mantener el color por defecto
+    emailInput.style.borderColor = "#381a46";
+});
