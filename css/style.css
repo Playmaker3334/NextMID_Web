@@ -247,7 +247,7 @@ a {
 
 .header-index {
     background-image: url("../Images/bg/Portada_Facebook.jpeg");
-    background-position: center center;
+    background-position: center top;
     background-size: cover;
 }
 
