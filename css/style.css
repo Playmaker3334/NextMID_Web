@@ -283,7 +283,7 @@ header {
 
 nav li a.active,
 .nav-link:is(:hover, :focus-visible) {
-    color: #ff4d00;
+    color: #c501e1;
 }
 
 .dropdown {
@@ -361,11 +361,11 @@ nav li a.active,
 }
 
 .nav-right p:first-child {
-    color: #000000;
+    color: #c501e1; 
 }
 
 .nav-right span {
-    color: #ff4d00;
+    color: #000000;
 }
 
 .nav-right .fa-magnifying-glass {
@@ -382,7 +382,6 @@ nav li a.active,
 .nav-right .fa-bars {
     color: #ffffff;
     font-size: 22px;
-    background-color: #150803;
     padding: 7px 8px;
     border-radius: 50%;
     cursor: pointer;
@@ -765,7 +764,7 @@ aside .pages {
 
 .hero-social-icon i {
     font-size: 26px;
-    background: linear-gradient(0deg, #f54a48 0.5%, #fa982f 100%);
+    background: linear-gradient(0deg, #7436bb 0.01%, #b520a3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -810,7 +809,7 @@ aside .pages {
     position: relative;
     overflow: hidden;
     border-radius: 50px;
-    border: 1.5px solid #d12bec;
+    border: 1.5px solid #ff99cc;
     color: #ffffff;
     z-index: 1;
     letter-spacing: 0.8px;
@@ -846,7 +845,7 @@ aside .pages {
 /* ====== 1.3. card section ====== */
 
 .feature {
-    background-color: #150725;
+    background-color: #000000;
     margin-top: -1px;
     position: relative;
 }
@@ -901,7 +900,7 @@ aside .pages {
 /* ====== 1.4. logoipsum section ====== */
 
 .logoipsum {
-    background-color: #150725;
+    background-color: #000000;
     padding: 150px 0;
     margin-top: -1px;
 }
@@ -944,7 +943,7 @@ aside .pages {
 /* ====== 1.5. About us section ====== */
 
 .about {
-    background: #890c9b;
+    background: linear-gradient(0deg, #661072 0%, #000000 100%);
     padding: 100px 0;
 }
 
@@ -1086,7 +1085,7 @@ aside .pages {
 /* ====== 1.6. gallary section ====== */
 
 .portfolio-1 {
-    background: #150725;
+    background:  linear-gradient(180deg, #661072 0%, #5c0f66 100%);
     padding: 120px 0 120px 0;
     margin-top: -1px;
 }
@@ -1256,7 +1255,7 @@ aside .pages {
 /* ====== 1.7. Services section ====== */
 
 .service-1 {
-    background: #33003b;
+    background: linear-gradient(0deg, #661072 0%, #000000 100%);
     padding: 120px 0;
 }
 
@@ -1758,7 +1757,7 @@ aside .pages {
 }
 
 .team-btn {
-    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    background: linear-gradient(0deg, #c701e156 0%, #140921 100%);
     color: #d3c9c1;
     padding: 40px 20px;
     margin-top: 90px;
@@ -2011,9 +2010,9 @@ aside .pages {
 
 .blog-card a {
     padding: 0 0 11px 0 !important;
-    border-bottom: 2px solid #ff8c4b;
+    border-bottom: 2px solid #c501e1;
     letter-spacing: 2px;
-    background: linear-gradient(66.75deg, #f54a48 0.87%, #fa982f 100%);
+    background: linear-gradient(0deg, #c501e1 0.5%, #ff99ccc1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2106,7 +2105,7 @@ footer form button:hover {
 }
 
 .footer-menu {
-    background: linear-gradient(0deg, #471133 0%, #140921 100%);
+    background: linear-gradient(0deg, #c701e156 0%, #140921 100%);
     color: #ffffff;
     padding: 50px 0;
     margin-top: 77px;
@@ -2123,20 +2122,20 @@ footer form button:hover {
 
 .footer-menu i {
     font-size: 20px;
-    background: linear-gradient(0deg, #f54a48 0.5%, #fa982f 100%);
+    background: linear-gradient(0deg, #c501e1 0.5%, #ff99ccc1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-right: 10px;
 }
 
 .footer-menu i:hover {
-    background: linear-gradient(0deg, #f54a48 0.5%, #f54a48 100%);
+    background: linear-gradient(0deg, #c501e1 0.5%, #ff99ccc1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .footer-menu h4 {
-    color: #f57c48;
+    color: #c501e1;
     margin-bottom: 26px;
 }
 
